@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# This file will be sourced in init.sh
-
-# https://raw.githubusercontent.com/ai-dock/comfyui/main/config/provisioning/default.sh
-
 # Packages are installed after nodes so we can fix them...
 
 DEFAULT_WORKFLOW="https://raw.githubusercontent.com/ai-dock/comfyui/main/config/workflows/flux-comfyui-example.json"
@@ -34,6 +30,8 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
+    #Place somet model in checkpoints for image preview node to have a checkpoint name
+    "https://huggingface.co/RomanShp/flux_loras/resolve/main/lena_uman_norm_train_e30.safetensors"
 )
 
 CLIP_MODELS=(
