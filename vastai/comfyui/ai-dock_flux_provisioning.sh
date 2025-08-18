@@ -26,9 +26,11 @@ NODES=(
     "https://github.com/wallish77/wlsh_nodes.git"
     "https://github.com/nilor-corp/nilor-nodes.git"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack.git"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Subpack.git"
     "https://github.com/giriss/comfy-image-saver.git"
     "https://github.com/yolain/ComfyUI-Easy-Use.git"
     "https://github.com/da2el-ai/D2-nodes-ComfyUI.git"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git"
 )
 
 CHECKPOINT_MODELS=(
