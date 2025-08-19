@@ -102,7 +102,7 @@ function provisioning_start() {
         "${COMFYUI_DIR}/models/clip" \
         "${CLIP_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/esrgan" \
+        "${COMFYUI_DIR}/models/upscale_models" \
         "${ESRGAN_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/loras" \
