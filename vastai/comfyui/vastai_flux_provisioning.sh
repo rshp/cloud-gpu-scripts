@@ -16,9 +16,6 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    #"https://github.com/ltdrdata/ComfyUI-Manager"
-    #"https://github.com/cubiq/ComfyUI_essentials"
-    "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/rgthree/rgthree-comfy.git"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git"
     "https://github.com/ltdrdata/was-node-suite-comfyui.git"
@@ -30,6 +27,9 @@ NODES=(
     "https://github.com/yolain/ComfyUI-Easy-Use.git"
     "https://github.com/da2el-ai/D2-nodes-ComfyUI.git"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git"
+    "https://github.com/ClownsharkBatwing/RES4LYF.git"
+    "https://github.com/kijai/ComfyUI-KJNodes.git"
+    "https://github.com/kijai/ComfyUI-WanVideoWrapper.git"
 )
 
 WORKFLOWS=(
