@@ -39,3 +39,5 @@
 | Upscaler       | `/workspace/ComfyUi/models/upscale`        |
 | Text Encoder   | `/workspace/ComfyUi/models/clip`           |
 
+wget command: (command destination target)
+`wget --header="Authorization: Bearer $HF_TOKEN" -qnc --content-disposition --show-progress -e dotbytes=4M -P `
